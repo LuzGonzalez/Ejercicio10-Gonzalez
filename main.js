@@ -24,7 +24,7 @@ Post.find(function(error,docs){
     console.log(docs);
 });
 
-Post.find({author: 'Alejandra González'},
+Post.find({author: 'Alejandra Gonzalez'},
 function(error,docs){
     if(error){
         console.log(error);
